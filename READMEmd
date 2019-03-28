@@ -1,0 +1,31 @@
+# Lab-07-Express-Server
+basic express server
+
+#Links
+Github: 
+Travis: 
+Heroku: 
+
+#Modules
+get(id) --> object[id]
+
+post() --> object
+
+put(id) --> objet[id]
+
+delete(id) --> database
+
+validate(object) --> valid
+
+#Setup
+--In Terminal:
+~$ npm init
+~$ npm install -D jest eslint
+~$ npm install http express mongoose morgan uuid cors dotenv
+
+#Run App
+--In Terminal:
+~$ nodemon src/app.js
+--open browser and search localhost:8080/
+
+//CHANGE TO FIT MONGO
